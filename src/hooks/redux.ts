@@ -6,5 +6,4 @@ import { useSelector } from "react-redux";
 export const useTypedSelector : TypedUseSelectorHook<RootState> = useSelector;
 export const useTypedDispatch = () => useDispatch<AppDispatch>();
 
-const logger = useTypedSelector((state)=> state.logger);
 
