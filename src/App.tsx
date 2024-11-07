@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { appContainer, board, buttons, deleteBoardButton, loggerButton } from './App.css'
 import BoardList from './components/BoardList/BoardList'
 import ListsContainer from './components/ListsContainer/ListsContainer';

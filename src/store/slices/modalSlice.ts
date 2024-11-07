@@ -1,12 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ITask } from "../../types";
 
-type TModalState = {
-    boardId: string;
-    listId: string;
-    task: ITask;
-}
-
 type TSetModalDataAction = {
     boardId: string;
     listId: string;
